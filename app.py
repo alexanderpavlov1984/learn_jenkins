@@ -3,3 +3,4 @@ def test():
 
 assert test() == 'OK'
 print('OK')
+print('Dev')
