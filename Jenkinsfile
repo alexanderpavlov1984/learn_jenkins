@@ -1,14 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh '''set -e
 set -u
 
 function check_python3()
 {
-  if [ -f "/usr/bin/python33" ]; then
+  if [ -f "/usr/bin/python3" ]; then
     echo "Ok"
   else
     echo "There is NO Python 3 installed on this machine!"
