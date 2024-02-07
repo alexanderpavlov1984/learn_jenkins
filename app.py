@@ -1,6 +1,11 @@
-def test():
-    return 'OK'
+def add(x,y):
+    return x+y
 
-assert test() == 'OK'
-print('OK')
-print('Dev')
+def subtract(x,y):
+    return x-y
+
+def multiply(x,y):
+    return x*y
+
+def divide(x,y):
+    return x/y
